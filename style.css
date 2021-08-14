@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 80%;
+    margin: auto;
+    
+}
+main{
+   
+}
+
+.banner-area{
+    padding: 100px 0;
+}
+   
+
+.banner-area{
+    background-color: #2D25A0;
+    
+}
+.header-banner{
+    display: flex;
+   align-items: center;
+   
+   
+}
+
+
+.banner-image img{
+    Width 30px;
+    Height 30px;
+}
+
+.header-banner .banner-image img{
+    width: 556.01px;
+    height: 438px;
+
+}
+
+
+.header-banner .banner-text h3{
+    color: red;
+    font-size: 64px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 80px;
+    padding-left: 50px;
+    margin-right: 100px;
+}
+
+.header-banner .banner-text h3{
+    font-family:  Poppins;
+    Weight 700;
+    Style normal;
+    Size 64px;
+    Line height 80px;
+}
+
+
+.header-banner .banner-text a{
+   background-color: #E02C6D;
+   color: #ffffff;
+   text-decoration: none;
+   padding: 10px 30px;
+}
+
+.header-banner .banner-text a:hover{
+    background-color: #ffffff;
+    color: #E02C6D;
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 1px solid #000000;
+ }
+
+
+
+/* Plyer section  */
+.player-section{
+    background-color: gray;
+}
+.players{
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    flex-direction: column;
+    align-content: center;
+    grid-column-gap: 5px;
+    column-gap: 5px;
+  row-gap: 5px;
+
+    
+}
+.player{
+    width: 400px;
+    padding: 10px;
+    
+}
+.player img{
+    width: 300px;
+    height: 300px;
+}
+
+
+
+
+
+.hightligh{
+    display: flex;
+    padding: 100px 0;
+}
+
+
+.highlight-image img{
+    width: 567px;
+height: 427px;
+}
+
+.hightliht-text h2{
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0px;
+text-align: left;
+
+    
+}
+
+.social-icon img{
+    width: 100%;
+}
+
+.social-icon{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-area{
+    margin: auto;
+    text-align: center;
+}
+.icon{
+    font-size: 40px;
+}
+
+
+.icon:hover{
+   color: red;
+}
